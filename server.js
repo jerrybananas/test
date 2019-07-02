@@ -4,7 +4,7 @@ var app = require('http').createServer(handler),
   mysql = require('mysql'),
   connectionsArray = [],
   connection = mysql.createConnection({
-    host: 'jdbc:mysql://db4free.net:3306/it21542db?useSSL=false&useUnicode=true&connectionCollation=utf8_general_ci&characterSetResults=utf8&characterEncoding=utf-8',
+    host: '83.212.105.20',
     user: 'it21542',
     password: 'changeit',
     database: 'it21542',
